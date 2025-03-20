@@ -1,0 +1,70 @@
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.6;
+  font-weight: 400;
+
+  color: #213547;
+  background-color: #f9f9f9;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  font-weight: 500;
+  color: #ff6600;
+  text-decoration: none;
+  transition: color 0.3s ease-in-out;
+}
+
+a:hover {
+  color: #e65c00;
+}
+
+/* Base Styles */
+body {
+  background: linear-gradient(180deg, #0a1931, #1c3c5a);
+  color: navy; 
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 2.5rem;
+  text-align: center;
+  color: navy;
+}
+
+/* General Buttons */
+button {
+  border-radius: 8px;
+  border: none;
+  padding: 10px 15px;
+  font-size: 1rem;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #d9534f;
+  color: white;
+  cursor: pointer;
+  transition: background 0.3s ease-in-out;
+}
+
+button:hover {
+  background-color: #e65c00;
+}
+
+/* Button Focus */
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+/* Responsive Typography */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2rem;
+  }
+}
